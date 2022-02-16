@@ -89,7 +89,7 @@ const Actions = () => {
   const sendPingTransaction = async () => {
     const pingTransaction = {
       value: '1000000000000000000',
-      data: 'ping',
+      data: 'mint',
       receiver: contractAddress
     };
     await refreshAccount();
